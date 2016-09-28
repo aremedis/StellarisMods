@@ -4,8 +4,9 @@
 
 
 trait_elemental = {
-	cost = 2
-	
+	cost = 5
+	opposites = { "trait_nonadaptive" "trait_extremely_adaptive" "trait_adaptive"}
+	modification = no
 	affected_by_radiation = no
 	
 	modifier = {
