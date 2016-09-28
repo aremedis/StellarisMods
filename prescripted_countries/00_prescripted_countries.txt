@@ -1,0 +1,66 @@
+#Embers of Muuat
+embers = {
+	name = "Embers of Muaat"
+	spawn_enabled = yes # yes / no / always
+	
+	name_list = "Human"
+	ship_prefix = "UNS"
+	
+	species_name = "Gashlai"
+	species_plural = "Gashlai"	#we should localize this!
+	species_adjective = "Gashlai"
+	species_class = "MAM"
+	trait = "trait_quick_learners"
+	trait = "trait_nomadic"	
+	portrait = "human"
+	adjective = "Human"
+	
+	government = "indirect_democracy"
+	ethic = "ethic_xenophile"
+	ethic = "ethic_fanatic_individualist"
+
+	flags = { human_1 custom_start_screen }
+	
+	weapon = "tech_missiles_1"
+	ftl = warp
+	
+	planet_name = "Muaat"
+	planet_class = "pc_desert"
+	initializer = "muaat_system_initializer"
+	system_name = "Muaat"
+	
+	graphical_culture = "mammalian_01"
+	city_graphical_culture = "mammalian_01"
+	
+	empire_flag = {
+		icon= {
+			category = "human"
+			file = "flag_human_9.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors={
+			"blue"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	#leader = {
+	#	name = "Dolores Muwanga"
+	#	class = ruler
+	#	portrait = "human_female_05"
+	#	experience = 1200.0
+	#}
+	
+	ruler = {
+		name = "Dolores Muwanga"
+		gender = female
+		portrait = "human_female_05"
+		texture = 0
+		hair = 1
+		clothes = 0
+	}
+}
