@@ -3,7 +3,7 @@ embers_of_muaat = {
 	randomized = no
 
 	ship_names = {
-		generic = { Spark Kindling Glow Ember Flare 
+		generic = { Spark Kindling Glow Ember Flare Blaze Bonfire Heat Inferno Campfire Charring Coal Combustion Tinder
 			
 		}
 		
@@ -100,7 +100,7 @@ embers_of_muaat = {
 		random_names = {
 			
 		}
-		sequential_name = "%O% Campfire"
+		sequential_name = "%O% Conflaguration"
 	}
 	
 	army_names = {

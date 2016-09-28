@@ -1,0 +1,14 @@
+##################
+# Species Traits #
+##################
+
+
+trait_elemental = {
+	cost = 2
+	
+	affected_by_radiation = no
+	
+	modifier = {
+		pop_environment_tolerance = 1.5
+	}
+}
