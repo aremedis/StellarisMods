@@ -3,8 +3,8 @@ embers = {
 	name = "Embers of Muaat"
 	spawn_enabled = yes # yes / no / always
 	
-	name_list = "Human"
-	ship_prefix = "UNS"
+	name_list = "embers_of_muaat"
+	ship_prefix = "EOM"
 	
 	species_name = "Gashlai"
 	species_plural = "Gashlai"	#we should localize this!
@@ -13,13 +13,13 @@ embers = {
 	trait = "trait_quick_learners"
 	trait = "trait_nomadic"	
 	portrait = "human"
-	adjective = "Human"
+	adjective = "Gashlai"
 	
 	government = "indirect_democracy"
 	ethic = "ethic_xenophile"
 	ethic = "ethic_fanatic_individualist"
 
-	flags = { human_1 custom_start_screen }
+	#flags = { human_1 custom_start_screen }
 	
 	weapon = "tech_missiles_1"
 	ftl = warp
