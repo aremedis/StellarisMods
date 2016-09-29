@@ -14,7 +14,7 @@ muaat_system_initializer = {
 	usage = custom_empire
 	
 	planet = {
-		name = "Sol"
+		name = "Muaat"
 		class = "pc_m_star"
 		orbit_distance = 0
 		orbit_angle = 1
@@ -153,26 +153,26 @@ muaat_system_initializer = {
 			}			
 		}
 		
-		moon = {
-			name = "Luna"
-			class = "pc_barren_cold"
-			size = 5
-			orbit_distance = 12
-			orbit_angle = 40
-			has_ring = no
-			entity = "cold_barren_planet_luna_entity"
-		}
+		#moon = {
+		#	name = "Luna"
+		#	class = "pc_barren_cold"
+		#	size = 5
+		#	orbit_distance = 12
+		#	orbit_angle = 40
+		#	has_ring = no
+		#	entity = "cold_barren_planet_luna_entity"
+		#}
 	}
 	
 	
 	
-	neighbor_system = {
-		distance = { min = 10 max = @distance }	
-		initializer = "sol_neighbor_t1"
-	}
-	neighbor_system = {
-		distance = { min = 10 max = @distance }	
-		initializer = "sol_neighbor_t1_first_colony"
-	}
+	#neighbor_system = {
+	#	distance = { min = 10 max = @distance }	
+	#	initializer = "sol_neighbor_t1"
+	#}
+	#neighbor_system = {
+	#	distance = { min = 10 max = @distance }	
+	#	initializer = "sol_neighbor_t1_first_colony"
+	#}
 }
 

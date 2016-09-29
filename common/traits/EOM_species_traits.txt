@@ -10,6 +10,6 @@ trait_elemental = {
 	affected_by_radiation = no
 	
 	modifier = {
-		pop_environment_tolerance = 1.5
+		pop_environment_tolerance = 0.5
 	}
 }
