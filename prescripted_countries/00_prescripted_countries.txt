@@ -7,7 +7,7 @@ embers = {
 	ship_prefix = "EOM"
 	
 	species_name = "Gashlai"
-	species_plural = "Gashlai"	#we should localize this!
+	species_plural = "Gashlai"	
 	species_adjective = "Gashlai"
 	species_class = "MAM"
 	#trait = "trait_quick_learners"
