@@ -8,7 +8,7 @@ muaat_system_initializer = {
 	name = "Muaat"
 	
 	class = "sc_m"
-	asteroids_distance = 120
+	asteroids_distance = 10
 	flags = { sol_system sol }
 	
 	usage = custom_empire
@@ -26,12 +26,12 @@ muaat_system_initializer = {
 	planet = {
 		name = "Muaat"
 		class = "pc_desert"
-		orbit_distance = 0
-		orbit_angle = 1
+		orbit_distance = 60
+		orbit_angle = 115
 		size = 16
 		starting_planet = yes
 		has_ring = no
-		entity = "continental_planet_earth_entity"
+		entity = "molten_planet_03_entity"
 		#entity = "m_star_class_star_entity"
 		tile_blockers = none
 		modifiers = none
