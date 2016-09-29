@@ -10,7 +10,7 @@ embers = {
 	species_plural = "Gashlai"	#we should localize this!
 	species_adjective = "Gashlai"
 	species_class = "MAM"
-	trait = "trait_quick_learners"
+	#trait = "trait_quick_learners"
 	trait = "trait_adaptive"	
 	trait = "trait_elemental"
 	portrait = "human"
@@ -43,7 +43,7 @@ embers = {
 			file = "00_solid.dds"
 		}
 		colors={
-			"blue"
+			"red"
 			"black"
 			"null"
 			"null"
@@ -57,7 +57,7 @@ embers = {
 	#}
 	
 	ruler = {
-		name = "Dolores Muwanga"
+		name = "TERROBAD"
 		gender = female
 		portrait = "human_female_05"
 		texture = 0
