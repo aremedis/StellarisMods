@@ -13,14 +13,14 @@ muaat_system_initializer = {
 	
 	usage = custom_empire
 	
-	#planet = {
-	#	name = "Muaat"
-	#	class = "pc_m_star"
-	#	orbit_distance = 0
-	#	orbit_angle = 1
-	#	size = 30
-	#	has_ring = no
-	#}
+	planet = {
+		name = "Muaat"
+		class = "pc_m_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+	}
 	
 		
 	planet = {
@@ -28,10 +28,11 @@ muaat_system_initializer = {
 		class = "pc_desert"
 		orbit_distance = 0
 		orbit_angle = 1
-		size = 30
+		size = 16
 		starting_planet = yes
 		has_ring = no
-		entity = "m_star_class_star_entity"
+		entity = "continental_planet_earth_entity"
+		#entity = "m_star_class_star_entity"
 		tile_blockers = none
 		modifiers = none
 		
