@@ -35,8 +35,8 @@ embers = {
 	
 	empire_flag = {
 		icon= {
-			category = "human"
-			file = "flag_human_9.dds"
+			category = "twilightimperium"
+			file = "flag_Muaat.dds"
 		}
 		background= {
 			category = "backgrounds"

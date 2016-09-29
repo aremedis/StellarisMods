@@ -210,10 +210,10 @@ embers_of_muaat = {
 
 		names1 = {
 			weight = 40
-			first_names_male = { 
+			first_names_male = { Magmus Umbat Emnor
 				
 			}
-			first_names_female = {
+			first_names_female = { Magmus Umbat Emnor
 			}
 			second_names = {
 				
