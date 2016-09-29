@@ -11,8 +11,8 @@ embers = {
 	species_adjective = "Gashlai"
 	species_class = "MAM"
 	trait = "trait_quick_learners"
-	trait = "trait_nomadic"	
-	#trait = "trait_elemental"
+	trait = "trait_adaptive"	
+	trait = "trait_elemental"
 	portrait = "human"
 	adjective = "Gashlai"
 	
